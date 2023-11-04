@@ -46,11 +46,7 @@
     </style>
   </head>
   <body>
-    
     <section style="margin-left: 430px; margin-top: 150px; ">
-      
-
-      
   <div id="modal" class="modal">
     <div class="modal-content">
       <p id="modalText"></p>
@@ -58,23 +54,24 @@
   </div>
       <h1 id="welcomeMessage" style="display: none; margin-left: 120px; color: green;">Welcome!</h1>
       <h2>Войти в аккаунт</h2>
-      <form style="width: 420px;">
+      <form   id="registrationForm" style="width: 420px;">
+        <label for="email"  style="font-family: 
+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px; color: white;
+" class="">Email</label>
         <input type="text"    class="form-control"   id="emailInput" placeholder="Email">
         <br>
+        <label for="password"  style="font-family: 
+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px; color: white;
+" class="">Password</label>
         <input type="password"  class="form-control" id="passwordInput" placeholder="Password">
         <br>
       </form>
-      <p id="emailError" style="color: red;"></p>
-      <p id="passwordError" style="color: red;"></p>
-      <p id="errorMessage" style="color: red;"></p>
-      <button  type="submit"  id="submitButton"
-       class="   btn btn-dark" 
-       >Submit</button>
+   <button  type="submit"  id="submitButton"class="   btn btn-dark" >Submit</button>
        <p style="list-style: none; margin-top: 50px; text-decoration: none;
         border-bottom: none;">  <a href="./index.html" style="text-decoration: none;">Регистрация</a></p>
-
     </section>
-    
     <script>
 
 // 5 ci-
